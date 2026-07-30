@@ -56,9 +56,47 @@ https://cdn.jsdelivr.net/gh/Cancelllls/Islamic-Assets@main/hadith/ara-bukhari.js
 
 CDN: `https://cdn.jsdelivr.net/gh/Cancelllls/Islamic-Assets@main/quran/{file}.json`
 
+
+### Hadith Sharh (Classical Explanations)
+
+`sharh_cache.json` — 13,566 classical hadith explanations extracted from:
+
+| Book | Hadiths Covered | Classical Source |
+|------|----------------|-----------------|
+| Sahih al-Bukhari | 5,483 / 7,277 | Fath al-Bari — Ibn Hajar al-Asqalani |
+| Sahih Muslim | 574 / 7,368 | Sharh al-Nawawi — Imam al-Nawawi |
+| Sunan Abu Dawud | 4,270 / 5,276 | Awn al-Ma'bud — Shams al-Haqq al-Azimabadi |
+| Jami' at-Tirmidhi | 1,131 / 4,053 | al-Urf al-Shadhi — Anwar Shah al-Kashmiri |
+| Sunan an-Nasa'i | 2,108 / 5,685 | Hashiya al-Sindi + Dhakhirat al-Uqba |
+| **Total** | **13,566** | From OpenITI + Maktaba Shamela |
+
+Bracket-numbered books (Tirmidhi, Nasai) may have numbering gaps.
+CDN: `https://cdn.jsdelivr.net/gh/Cancelllls/Islamic-Assets@main/sharh_cache.json`
+
+Sources: OpenITI Corpus (Zenodo, open access) + Shamela Books (via HuggingFace)
+
 ## Sources
 
 - Quran text: Standard Uthmani script (Hafs) + 10 Qira'at variants
+
+
+### Hadith Sharh (Classical Explanations)
+
+`sharh_cache.json` — 13,566 classical hadith explanations extracted from:
+
+| Book | Hadiths Covered | Classical Source |
+|------|----------------|-----------------|
+| Sahih al-Bukhari | 5,483 / 7,277 | Fath al-Bari — Ibn Hajar al-Asqalani |
+| Sahih Muslim | 574 / 7,368 | Sharh al-Nawawi — Imam al-Nawawi |
+| Sunan Abu Dawud | 4,270 / 5,276 | Awn al-Ma'bud — Shams al-Haqq al-Azimabadi |
+| Jami' at-Tirmidhi | 1,131 / 4,053 | al-Urf al-Shadhi — Anwar Shah al-Kashmiri |
+| Sunan an-Nasa'i | 2,108 / 5,685 | Hashiya al-Sindi + Dhakhirat al-Uqba |
+| **Total** | **13,566** | From OpenITI + Maktaba Shamela |
+
+Bracket-numbered books (Tirmidhi, Nasai) may have numbering gaps.
+CDN: `https://cdn.jsdelivr.net/gh/Cancelllls/Islamic-Assets@main/sharh_cache.json`
+
+Sources: OpenITI Corpus (Zenodo, open access) + Shamela Books (via HuggingFace)
 
 ## Sources
 
