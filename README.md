@@ -59,21 +59,23 @@ CDN: `https://cdn.jsdelivr.net/gh/Cancelllls/Islamic-Assets@main/quran/{file}.js
 
 ### Hadith Sharh (Classical Explanations)
 
-`sharh_cache.json` — 13,566 classical hadith explanations extracted from:
+Per-book files in `sharh/` directory — gzipped JSON, each under 7MB:
 
-| Book | Hadiths Covered | Classical Source |
-|------|----------------|-----------------|
-| Sahih al-Bukhari | 5,483 / 7,277 | Fath al-Bari — Ibn Hajar al-Asqalani |
-| Sahih Muslim | 574 / 7,368 | Sharh al-Nawawi — Imam al-Nawawi |
-| Sunan Abu Dawud | 4,270 / 5,276 | Awn al-Ma'bud — Shams al-Haqq al-Azimabadi |
-| Jami' at-Tirmidhi | 1,131 / 4,053 | al-Urf al-Shadhi — Anwar Shah al-Kashmiri |
-| Sunan an-Nasa'i | 2,108 / 5,685 | Hashiya al-Sindi + Dhakhirat al-Uqba |
-| **Total** | **13,566** | From OpenITI + Maktaba Shamela |
+| Book | File | Hadiths | Source | Size |
+|------|------|---------|--------|------|
+| Bukhari | `sharh/sharh_bukhari.json.gz` | 5,483 / 7,277 | Fath al-Bari | 6.6 MB |
+| Abu Dawud | `sharh/sharh_abudawud.json.gz` | 4,270 / 5,276 | Awn al-Ma'bud | 3.6 MB |
+| Nasai | `sharh/sharh_nasai.json.gz` | 2,108 / 5,685 | Hashiya al-Sindi | 0.9 MB |
+| Tirmidhi | `sharh/sharh_tirmidhi.json.gz` | 1,131 / 4,053 | al-Urf al-Shadhi | 0.6 MB |
+| Muslim | `sharh/sharh_muslim.json.gz` | 574 / 7,368 | Sharh al-Nawawi | 0.8 MB |
+| **Total** | | **13,566** | | **12.5 MB** |
 
-Bracket-numbered books (Tirmidhi, Nasai) may have numbering gaps.
-CDN: `https://cdn.jsdelivr.net/gh/Cancelllls/Islamic-Assets@main/sharh_cache.json`
+CDN example:
+```
+https://cdn.jsdelivr.net/gh/Cancelllls/Islamic-Assets@main/sharh/sharh_bukhari.json.gz
+```
 
-Sources: OpenITI Corpus (Zenodo, open access) + Shamela Books (via HuggingFace)
+Sources: OpenITI Corpus (Zenodo) + Maktaba Shamela (HuggingFace)
 
 ## Sources
 
@@ -82,21 +84,23 @@ Sources: OpenITI Corpus (Zenodo, open access) + Shamela Books (via HuggingFace)
 
 ### Hadith Sharh (Classical Explanations)
 
-`sharh_cache.json` — 13,566 classical hadith explanations extracted from:
+Per-book files in `sharh/` directory — gzipped JSON, each under 7MB:
 
-| Book | Hadiths Covered | Classical Source |
-|------|----------------|-----------------|
-| Sahih al-Bukhari | 5,483 / 7,277 | Fath al-Bari — Ibn Hajar al-Asqalani |
-| Sahih Muslim | 574 / 7,368 | Sharh al-Nawawi — Imam al-Nawawi |
-| Sunan Abu Dawud | 4,270 / 5,276 | Awn al-Ma'bud — Shams al-Haqq al-Azimabadi |
-| Jami' at-Tirmidhi | 1,131 / 4,053 | al-Urf al-Shadhi — Anwar Shah al-Kashmiri |
-| Sunan an-Nasa'i | 2,108 / 5,685 | Hashiya al-Sindi + Dhakhirat al-Uqba |
-| **Total** | **13,566** | From OpenITI + Maktaba Shamela |
+| Book | File | Hadiths | Source | Size |
+|------|------|---------|--------|------|
+| Bukhari | `sharh/sharh_bukhari.json.gz` | 5,483 / 7,277 | Fath al-Bari | 6.6 MB |
+| Abu Dawud | `sharh/sharh_abudawud.json.gz` | 4,270 / 5,276 | Awn al-Ma'bud | 3.6 MB |
+| Nasai | `sharh/sharh_nasai.json.gz` | 2,108 / 5,685 | Hashiya al-Sindi | 0.9 MB |
+| Tirmidhi | `sharh/sharh_tirmidhi.json.gz` | 1,131 / 4,053 | al-Urf al-Shadhi | 0.6 MB |
+| Muslim | `sharh/sharh_muslim.json.gz` | 574 / 7,368 | Sharh al-Nawawi | 0.8 MB |
+| **Total** | | **13,566** | | **12.5 MB** |
 
-Bracket-numbered books (Tirmidhi, Nasai) may have numbering gaps.
-CDN: `https://cdn.jsdelivr.net/gh/Cancelllls/Islamic-Assets@main/sharh_cache.json`
+CDN example:
+```
+https://cdn.jsdelivr.net/gh/Cancelllls/Islamic-Assets@main/sharh/sharh_bukhari.json.gz
+```
 
-Sources: OpenITI Corpus (Zenodo, open access) + Shamela Books (via HuggingFace)
+Sources: OpenITI Corpus (Zenodo) + Maktaba Shamela (HuggingFace)
 
 ## Sources
 
