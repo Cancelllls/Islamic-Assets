@@ -37,6 +37,29 @@ Example:
 https://cdn.jsdelivr.net/gh/Cancelllls/Islamic-Assets@main/hadith/ara-bukhari.json
 ```
 
+
+### Quran (Hafs + 10 Qira'at)
+
+| File | Recitation | Size |
+|------|-----------|------|
+| `quran_hafs.json` | Hafs 'an 'Asim (standard) | 14 MB |
+| `warsh.json` | Warsh 'an Nafi' | 2.7 MB |
+| `qaloon.json` | Qaloon 'an Nafi' | 3.0 MB |
+| `bazzi.json` | Al-Bazzi 'an Ibn Kathir | 3.0 MB |
+| `qunbul.json` | Qunbul 'an Ibn Kathir | 3.0 MB |
+| `duri.json` | Al-Duri 'an Abu 'Amr | 3.0 MB |
+| `susi.json` | Al-Susi 'an Abu 'Amr | 3.0 MB |
+| `hisham.json` | Hisham 'an Ibn 'Amir | 3.0 MB |
+| `ibn-dhakwan.json` | Ibn Dhakwan 'an Ibn 'Amir | 3.0 MB |
+| `shuba.json` | Shu'ba 'an 'Asim | 3.0 MB |
+| `surahs.json` | Surah metadata | 28 KB |
+
+CDN: `https://cdn.jsdelivr.net/gh/Cancelllls/Islamic-Assets@main/quran/{file}.json`
+
+## Sources
+
+- Quran text: Standard Uthmani script (Hafs) + 10 Qira'at variants
+
 ## Sources
 
 - Hadith text: [sunnah.com](https://sunnah.com) via [hadith-json](https://github.com/AhmedBaset/hadith-json) and [Hadith-Data-Sets](https://github.com/irahardianto/Hadith-Data-Sets)
