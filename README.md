@@ -63,12 +63,12 @@ Per-book files in `sharh/` directory — JSON, each under 27MB:
 
 | Book | File | Hadiths | Source | Size |
 |------|------|---------|--------|------|
-| Bukhari | `sharh/sharh_bukhari.json` | 5,483 / 7,277 | Fath al-Bari | 26.9 MB |
+| Bukhari | `sharh/sharh_bukhari.json.gz` | 5,483 / 7,277 | Fath al-Bari | 6.6 MB |
 | Abu Dawud | `sharh/sharh_abudawud.json` | 4,270 / 5,276 | Awn al-Ma'bud | 18.0 MB |
 | Nasai | `sharh/sharh_nasai.json` | 2,108 / 5,685 | Hashiya al-Sindi | 4.2 MB |
 | Tirmidhi | `sharh/sharh_tirmidhi.json` | 1,131 / 4,053 | al-Urf al-Shadhi | 2.5 MB |
 | Muslim | `sharh/sharh_muslim.json` | 574 / 7,368 | Sharh al-Nawawi | 3.0 MB |
-| **Total** | | **13,566** | | **54.6 MB** |
+| **Total** | | **13,566** | | **35.1 MB** |
 
 CDN example:
 ```
@@ -88,12 +88,12 @@ Per-book files in `sharh/` directory — JSON, each under 27MB:
 
 | Book | File | Hadiths | Source | Size |
 |------|------|---------|--------|------|
-| Bukhari | `sharh/sharh_bukhari.json` | 5,483 / 7,277 | Fath al-Bari | 26.9 MB |
+| Bukhari | `sharh/sharh_bukhari.json.gz` | 5,483 / 7,277 | Fath al-Bari | 6.6 MB |
 | Abu Dawud | `sharh/sharh_abudawud.json` | 4,270 / 5,276 | Awn al-Ma'bud | 18.0 MB |
 | Nasai | `sharh/sharh_nasai.json` | 2,108 / 5,685 | Hashiya al-Sindi | 4.2 MB |
 | Tirmidhi | `sharh/sharh_tirmidhi.json` | 1,131 / 4,053 | al-Urf al-Shadhi | 2.5 MB |
 | Muslim | `sharh/sharh_muslim.json` | 574 / 7,368 | Sharh al-Nawawi | 3.0 MB |
-| **Total** | | **13,566** | | **54.6 MB** |
+| **Total** | | **13,566** | | **35.1 MB** |
 
 CDN example:
 ```
